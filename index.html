@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crimsonorbitfield</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+    <link rel = 'stylesheet' src = 'index.css'>
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+  <div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+    <div class="container">
+        <h1>crimsonorbitfield</h1>
+        <p>Enter a URL to go there instantly.</p>
+        <form id="redirectForm" autocomplete="off" novalidate>
+            <div class="search-container">
+                <input
+                    type="text"
+                    id="urlInput"
+                    placeholder="Enter a URL (e.g., google.com)"
+                    spellcheck="false"
+                    autofocus
+                />
+                <button type="submit" id="redirectButton" aria-label="Go to URL">
+                    <i data-feather="arrow-right"></i>
+                </button>
+            </div>
+        </form>
+        <div id="errorMessage" class="error-message" role="alert" aria-live="polite"></div>
+    </div>
+</body>
+</html>
