@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crimsonorbitfield</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel = 'stylesheet' href = 'index.css'>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <script src = "index.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Crimsonorbitfield</title>
+  <meta name="description" content="Crimsonorbitfield – a hyper-specific static tool to quickly redirect to any site. Just search the name and go." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Crimsonorbitfield" />
+  <meta property="og:description" content="Enter a URL, go instantly. Your quick access tool on any system." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://crimsonorbitfield.pages.dev/" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script src="index.js" defer></script>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Crimsonorbitfield",
+    "url": "https://crimsonorbitfield.pages.dev"
+  }
+  </script>
 </head>
 <body>
-  <div id='stars'></div>
-<div id='stars2'></div>
-<div id='stars3'></div>
-    <div class="container">
-        <h1>crimsonorbitfield</h1>
-        <p>Enter a URL to go there instantly.</p>
-        <form id="redirectForm" autocomplete="off" novalidate>
-            <div class="search-container">
-                <input
-                    type="text"
-                    id="urlInput"
-                    placeholder="Enter a URL (e.g., google.com)"
-                    spellcheck="false"
-                    autofocus
-                />
-                <button type="submit" id="redirectButton" aria-label="Go to URL">
-                    <i data-feather="arrow-right"></i>
-                </button>
-            </div>
-        </form>
-        <div id="errorMessage" class="error-message" role="alert" aria-live="polite"></div>
-    </div>
+  <div id="stars"></div>
+  <div id="stars2"></div>
+  <div id="stars3"></div>
+
+  <div class="container">
+    <h1>crimsonorbitfield</h1>
+    <p>Enter a URL to go there instantly.</p>
+    <form id="redirectForm" autocomplete="off" novalidate>
+      <div class="search-container">
+        <input
+          type="text"
+          id="urlInput"
+          placeholder="Enter a URL (e.g., google.com)"
+          spellcheck="false"
+          autofocus
+        />
+        <button type="submit" id="redirectButton" aria-label="Go to URL">
+          <i data-feather="arrow-right"></i>
+        </button>
+      </div>
+    </form>
+    <div id="errorMessage" class="error-message" role="alert" aria-live="polite"></div>
+  </div>
+
   <footer>
-    Site made to easily access other sites when an address bar is not provided. Simply search "crimsonorbitfield" in google and then enter your URL here.
-    Stars from <a href = 'https://codepen.io/sarazond/pen/LYGbwj'>Codepen</a>.</footer>
+    Site made to easily access other sites when an address bar is not provided.
+    Simply search "crimsonorbitfield" in google and then enter your URL here.
+    Stars from <a href="https://codepen.io/sarazond/pen/LYGbwj">Codepen</a>.
+  </footer>
 </body>
 </html>
