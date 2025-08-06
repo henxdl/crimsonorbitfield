@@ -21,8 +21,6 @@ You can search **"crimsonorbitfield"**, open the tool, and instantly redirect to
 3. Enter a full URL like `example.com`  
 4. Instantly go to that site  
 
-No tracking, no cookies, no data stored.
-
 ---
 
 ## Use Cases
