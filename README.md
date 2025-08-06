@@ -1,6 +1,6 @@
 # crimsonorbitfield
 
-**crimsonorbitfield** is a minimal web tool that helps you access any website, even when you can’t use the browser’s address bar.
+**crimsonorbitfield** is a minimal web tool that helps you access any website, even when you can’t use the browser’s address bar. (I made this in an hour)
 
 ## What It Does
 
